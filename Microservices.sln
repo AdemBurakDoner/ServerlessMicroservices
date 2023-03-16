@@ -27,8 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Api.Service", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "serverless", "serverless", "{C174CCCD-D45A-4695-9365-038D3210E9E8}"
 	ProjectSection(SolutionItems) = preProject
-		aws-lambda-tools-defaults.json = aws-lambda-tools-defaults.json
-		serverless.template = serverless.template
+		serverless\aws-lambda-tools-defaults.json = serverless\aws-lambda-tools-defaults.json
+		serverless\serverless.template = serverless\serverless.template
 	EndProjectSection
 EndProject
 Global

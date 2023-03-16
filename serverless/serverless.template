@@ -10,7 +10,7 @@
       "Properties": {
         "Handler": "Order.Api",
         "Runtime": "dotnet6",
-        "CodeUri": "src/Order/Order.Api/",
+        "CodeUri": "../src/Order/Order.Api/",
         "Description": "Order microservice",
         "MemorySize": 256,
         "Timeout": 30,
@@ -33,7 +33,7 @@
       "Properties": {
         "Handler": "Payment.Api",
         "Runtime": "dotnet6",
-        "CodeUri": "src/Payment/Payment.Api/",
+        "CodeUri": "../src/Payment/Payment.Api/",
         "Description": "Payment microservice",
         "MemorySize": 256,
         "Timeout": 30,
