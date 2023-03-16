@@ -1,0 +1,12 @@
+
+{
+    "region" : "eu-west-1",
+    "profile" : "KY_ProgramaticUser",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "s3-prefix"     : "LambdaSampleAPI/",
+    "template"      : "serverless.template",
+    "template-parameters" : "\"EnvironmentName\"=\"Prod\"",
+    "s3-bucket"           : "lambda-bucket-kycy",
+    "stack-name"          : "LambdaSample1603v1"
+}
